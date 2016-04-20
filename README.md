@@ -21,7 +21,8 @@ If nothing shows up, chances are you spelled the Professor's last name incorrect
   
 ![](https://i.imgsafe.org/c61cf7c.png)  
 Each subplot represents one year that the Professor has taught and each bar represents a semester.  
-
+The average GPA is located on each subplot's bottom right hand corner.  
+  
 # Requirements  
 Python 2.7  
 numpy  
