@@ -21,10 +21,14 @@ If nothing shows up, chances are you spelled the Professor's last name incorrect
 ![](https://i.imgsafe.org/c61cf7c.png)  
 Each subplot represents one year that the Professor has taught and each bar represents a semester.  
 
-# Requirements
-numpy  
-pyplot  
+# Requirements  
 Python 2.7  
+numpy  
+matplotlib  
+  
+or  
+  
+pip install -r requirements.txt  
 
 # Tasks
 - [x] Find average grade distribution for class and professor
