@@ -33,4 +33,11 @@ pip install -r requirements.txt
 # Tasks
 - [x] Find average grade distribution for class and professor
 - [ ] Find best professor for a class
-- [ ] Add other departments
+- [ ] Add other departments (Currently only EN & BA)  
+- [ ] Add more years (Currently 2010 - 2016)  
+- [ ] Add statistical analysis  
+
+# Troubles and Thoughts  
+The TAMU Registar only contains data of each department in PDF format only. I quickly made a script that downloaded some PDFs. I briefly looked into some python modules such as pdfquery, pdfminer and honestly thought that was a bit complex so I decided to just simply convert the PDFs into txt. It took me FOREVER to find a **FREE** site that converted and preserved formatting. The site I used was http://www.zamzar.com/convert/pdf-to-txt/ There are other sites out there, but they don't allow multiple uploads at the same time, which is very annoying.  
+After getting all my txt files, I began planning on how I would present the data. I knew I wanted to use a visualization library to present my data, so I began looking and playing around with plotly, bokeh, pandas, and matplotlib. In the end (after several hours of testing playing), matplotlib was the winner for me. 
+From this, I learned that data structures and how you format your data is very important. When I was trying out Bokeh, I spent a good couple of hours trying to format my data better so I could output it as a bar chart. In the end, I used matplotlib and used my original data structure and ordering. (Ironic because I initially didn't want to use matplotlib because it looked very confusing, but it's actually really straightforward!)  
